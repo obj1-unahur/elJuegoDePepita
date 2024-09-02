@@ -36,7 +36,7 @@ describe "Tests de Pepita" {
 	}
 
 	test "Al estar en la misma posicion que el nido pepita crece" {
-		//pepita.irA(nido.position())
+		pepita.irA(nido.position())
 		assert.equals("pepita-grande.png", pepita.image())
 	}
 
